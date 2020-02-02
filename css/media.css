@@ -1,0 +1,554 @@
+/*/////////////// media ///////*/
+@media only screen and (max-width: 1024px) {
+
+	header nav .logo a{
+		color: black;
+	}
+	/*-----------------------------------------------------------------*/
+	main .projects{
+		width: 1024px;
+		margin: auto;
+	}
+	main .projects .projects-content .block{
+		margin: 0px 15px 0px 21px;
+		width: 300px;
+		height: 300px;
+	}
+	main .projects .projects-content .block img{
+		width: 300px;
+		height: 250px;
+	}
+	
+	main .about{
+		width: 1024px;
+		margin: auto;
+	}
+	main .about p{
+		padding: 5px 15px 20px 23px;
+	}
+	main .about .about-content .block{
+		width: 310px;
+		margin: 12px;
+	}
+	main .about .about-content .block img{ 
+		width: 310px;
+		height: 220px;
+	}
+	main .about .about-content .block p{
+		padding: 0;
+	}
+	main .about .about-content .block .btn{
+		padding: 8px 42%;
+	}
+	/*------------------------*/
+	main .contact{
+		width: 1024px;
+		margin: 6% auto;
+	}
+	main .contact p{
+		padding: 0 0 20px 20px;
+	}
+	main .contact form input[type=text]{
+		padding: 12px 20px;
+		margin: 0 0 8px 0;
+	}
+	main .contact form input[type=submit]{
+		padding: 12px 20px;
+		margin: 0 0 8px 20px;
+	}
+	main .contact form{
+		padding-bottom: 2%;
+	}
+	main .contact iframe{
+		width: 1024px;
+		height: 360px;		
+	}
+}
+@media only screen and (max-width: 768px) {
+	header .slide .slide-content {
+	    top: 45%;
+	    left: 40%;
+	}
+	/*-----------------------------------------------------------------*/
+	main .projects{
+		width: 768px;
+		margin: auto;
+	}
+	main .projects h3{
+		padding-left: 10px;
+	}
+	main .projects .projects-content .block{
+		margin: 0px 15px 0px 21px;
+		width: 345px;
+    	height: 345px;
+	}
+	main .projects .projects-content .block img{
+		width: 345px;
+    	height: 345px;
+	}
+	main .projects .projects-content .block a{
+		padding: 15px 30px;
+	}
+	/*--------------------------------------------*/
+	main .about{
+		width: 768px;
+		margin: auto;
+	}
+	main .about p{
+		padding: 5px 15px 20px 23px;
+	}
+	main .about .about-content .block{
+		width: 355px;
+		margin: 12px;
+	}
+	main .about .about-content .block img{ 
+		width: 355px;
+		height: 255px;
+	}
+	main .about .about-content .block p{
+		padding: 0;
+	}
+	main .about .about-content .block .btn{
+		padding: 8px 42%;
+	}
+	/*------------------------*/
+	main .contact{
+		width: 768px;
+		margin: 6% auto;
+	}
+	main .contact p{
+		padding: 0 0 20px 20px;
+	}
+	main .contact form input[type=text]{
+		padding: 12px 20px;
+		margin: 0 0 8px 0;
+	}
+	main .contact form input[type=submit]{
+		padding: 12px 20px;
+		margin: 0 0 8px 20px;
+	}
+	main .contact form{
+		padding-bottom: 2%;
+	}
+	main .contact iframe{
+		width: 768px;
+		height: 360px;		
+	}
+}
+/*-------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 375px),(max-width: 414px){
+	header .slide img {
+    	width: 100%;
+	}
+	header .slide .slide-content {
+	    width: 130px;
+	    position: absolute;
+	    top: 35%;
+	    left: 35%;
+	}
+	header .slide .slide-content p {
+	    font-size: 12px;
+	}
+	header nav{
+		background-color: #ffffff8c;
+	}
+	.icon1{
+		display: block !important;
+	}
+
+	.sidenav {
+	  height: 50%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+
+	.sidenav li a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+
+	.sidenav li a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+		display: block !important;
+	  	position: absolute;
+	  	top: 0;
+	  	right: 25px;
+	  	font-size: 36px;
+	  	margin-left: 50px;
+	  	color: white;
+	}
+	header nav ul {
+	    display: grid;
+	}
+	main .projects{
+		width: 375px;
+		margin: auto;
+	}
+	main .projects h3{
+		padding-left: 0px;
+	}
+	main .projects .projects-content .block{
+		margin: 5px 0px 0px 7px;
+	    width: 360px;
+	    height: 375px;
+    	display: flex;
+		justify-content: center;
+	}
+	main .projects .projects-content .block img{
+		width: 360px;
+    	height: 350px;
+	}
+	main .projects .projects-content .block a{
+		padding: 20px 20px;
+    	font-size: 20px;
+	}
+	main .about{
+		width: 375px;
+		margin: auto;
+	}
+	main .about p{
+		width: 360px;
+    	padding: 5px 5px 0 5px;
+	}
+	main .about .about-content .block{
+		width: 375px;
+		margin: 6% 0 0 0;
+		display: block;
+	}
+	main .about .about-content .block h2{
+		font-size: 30px;
+	}
+	main .about .about-content .block img{ 
+		width: 375px;
+	    height: 250px;
+	    background-size: cover;
+	}
+	main .about .about-content .block p{
+		padding: 5px;
+	}
+	main .about .about-content .block .btn{
+		padding: 10px 42%;
+	}
+	main .contact{
+		width: 375px;
+		margin: 6% auto;
+	}
+	main .contact p{
+		padding: 0 0 20px 20px;
+	}
+	main .contact form input[type=text]{
+		padding: 12px 20px;
+    	margin: 12px 0 12px 0;
+	}
+	main .contact form input[type=submit]{
+		padding: 12px 20px;
+    	margin: 0 0 8px 20px;
+	}
+	main .contact form{
+		padding-bottom: 2%;
+	}
+	main .contact iframe{
+		width: 375px;
+		height: 360px;		
+	}
+}
+/*88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+@media only screen and (max-width: 361px) and (min-width: 359px){
+	body{
+		width: 360px;
+    	background-color: aqua;
+	}
+	header nav {
+	    /*width: 360px;*/
+	    width: 100%;
+	}
+		header .slide img {
+    	width: 100%;
+	}
+	header .slide .slide-content {
+	    width: 130px;
+	    position: absolute;
+	    top: 35%;
+	    left: 35%;
+	}
+	header .slide .slide-content p {
+	    font-size: 12px;
+	}
+	header nav{
+		background-color: #ffffff8c;
+		width: 360px;
+	}
+	.icon1{
+		display: block !important;
+	}
+
+	.sidenav {
+	  height: 50%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+
+	.sidenav li a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+
+	.sidenav li a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+		display: block !important;
+	  	position: absolute;
+	  	top: 0;
+	  	right: 25px;
+	  	font-size: 36px;
+	  	margin-left: 50px;
+	  	color: white;
+	}
+	header nav ul {
+	    display: grid;
+	}
+	main .projects{
+		/*width: 360px;*/
+		width: 100%;
+		margin: auto;
+	}
+	main .projects h3{
+		padding-left: 0px;
+	}
+	.projects-content{
+		/*width: 360px;*/
+		width: 100%;
+	}
+	main .projects .projects-content .block{
+		margin: 5px 0px 0px 0;
+	    /*width: 360px;*/
+	    width: 100%;
+	    height: 375px;
+    	display: flex;
+		justify-content: center;
+	}
+	main .projects .projects-content .block img{
+		/*width: 360px;*/
+		width: 100%;
+    	height: 350px;
+	}
+	main .projects .projects-content .block a{
+		padding: 20px 20px;
+    	font-size: 20px;
+	}
+	main .about{
+		/*width: 360px;*/
+		width: 100%;
+		margin: auto;
+	}
+	main .about p{
+		/*width: 360px;*/
+		width: 100%;
+    	padding: 5px 5px 0 5px;
+    	box-sizing: border-box;
+	}
+	main .about .about-content .block{
+		/*width: 360px;*/
+		width: 100%;
+		margin: 6% 0 0 0;
+		display: block;
+	}
+	main .about .about-content .block h2{
+		font-size: 30px;
+	}
+	main .about .about-content .block img{ 
+		/*width: 360px;*/
+		width: 100%;
+	    height: 250px;
+	    background-size: cover;
+	}
+	main .about .about-content .block p{
+		padding: 5px;
+	}
+	main .about .about-content .block .btn{
+		padding: 10px 42%;
+	}
+	main .contact{
+		/*width: 360px;*/
+		width: 100%;
+		margin: 6% auto;
+	}
+	main .contact p{
+		padding: 0 0 20px 20px;
+	}
+	main .contact form input[type=text]{
+		padding: 12px 20px;
+    	margin: 12px 0 12px 0;
+	}
+	main .contact form input[type=submit]{
+		padding: 12px 20px;
+    	margin: 0 0 8px 20px;
+	}
+	main .contact form{
+		padding-bottom: 2%;
+	}
+	main .contact iframe{
+		/*width: 360px;*/
+		width: 100%;
+		height: 360px;		
+	}
+}
+/*88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+@media only screen and (max-width: 412px) and (min-width: 410px){
+	header .slide img {
+	    width: 100%;
+	}
+}
+/*-----------------------------------------------------------------------------------------*/
+/*/////////////// media ///////*/
+@media only screen and (max-width: 320px){
+	header .slide .slide-content {
+	    width: 130px;
+	    position: absolute;
+	    top: 35%;
+	    left: 35%;
+	}
+	header .slide .slide-content p {
+	    font-size: 12px;
+	}
+	header nav{
+		background-color: #ffffff8c;
+	}
+
+	.icon1{
+		display: block !important;
+	}
+
+	.sidenav {
+	  height: 50%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+
+	.sidenav li a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+
+	.sidenav li a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+		display: block !important;
+	  	position: absolute;
+	  	top: 0;
+	  	right: 25px;
+	  	font-size: 36px;
+	  	margin-left: 50px;
+	  	color: white;
+	}
+	header nav ul {
+	    display: grid;
+	}
+	main .projects{
+		width: 320px;
+		margin: auto;
+	}
+	main .projects h3{
+		padding-left: 0px;
+	}
+	main .projects .projects-content .block{
+		margin: 5px 0 0 0;
+	    width: 320px;
+	    height: 300px;
+    	display: flex;
+		justify-content: center;
+	}
+	main .projects .projects-content .block img{
+		width: 300px;
+    	height: 280px;
+	}
+	main .projects .projects-content .block a{
+		padding: 10px 10px;
+    	font-size: 10px;
+	}
+	main .about{
+		width: 320px;
+		margin: auto;
+	}
+	main .about p{
+		width: 300px;
+    	padding: 5px 0 0 10px;
+	}
+	main .about .about-content .block{
+		width: 320px;
+		margin: 6% 0 0 0;
+		display: block;
+	}
+
+	main .about .about-content .block img{ 
+		width: 320px;
+	    height: 250px;
+	    background-size: cover;
+	}
+	main .about .about-content .block .btn{
+		padding: 10px 42%;
+	}
+	main .contact{
+		width: 320px;
+		margin: 6% auto;
+	}
+/*	main .contact p{
+		padding: 0 0 20px 20px;
+	}*/
+/*	main .contact form input[type=text]{
+		padding: 12px 20px;
+    	margin: 12px 0 12px 0;
+	}
+	main .contact form input[type=submit]{
+		padding: 12px 20px;
+    	margin: 0 0 8px 20px;
+	}*/
+	main .contact form{
+		padding-bottom: 2%;
+	}
+	main .contact iframe{
+		width: 320px;
+		height: 360px;		
+	}
+
+}

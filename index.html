@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Html Css Responsive design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body id="style-4">
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="index.html"><span>B R </span> Architects</a>
+			</div>
+			<div class="icon1" onclick="openNav()">&#9776;</div>
+			<ul class="topnav sidenav"  id="mySidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="slide">
+			<img src="img/architect.jpg" alt="">
+			<div class="slide-content">
+				<p  data-aos="zoom-in"><b>B R</b> Architect</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="projects" id="project">
+			<h3>{{ store_name }}</h3>
+			<div class="projects-content">
+				<div class="block" v-for="project in projects" >  <!-- data-aos="flip-up" --> 
+					<img :src="project.img" alt="">
+					<a href="#">{{ project.title }}</a>
+				</div>
+			</div>
+		</section>
+ 		<section class="about" id="about">
+			<h3>{{ store_name_about }}</h3>
+			<p>{{ my_about }}</p>
+			<div class="about-content" id="about_content">
+				<div class="block" v-for="block in blocks" ><!-- data-aos="zoom-in-down" -->
+					<img :src="block.img" alt="">
+					<h2>{{ block.title }}</h2>
+					<h4>{{ block.profession }}</h4>
+					<p>{{ block.about }}</p>
+					<a href="#" class="btn">{{ block.link }}</a>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<h3>Contact</h3>
+			<p>Lets go in touch and talk about your next project.</p>
+			<form action="#" method="post" ><!-- data-aos="zoom-out"  -->
+				<input type="text" name="name" placeholder="Name" required>
+				<input type="text" name="email" placeholder="Email" required>
+				<input type="text" name="subject" placeholder="Subject" required>
+				<input type="text" name="comment" placeholder="Comment" required>
+				<input type="submit" name="send" value="SEND MASSAGE">
+			</form>
+			<iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48773.28744317507!2d44.50246419248046!3d40.17945851312068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1580566159802!5m2!1sru!2s" frameborder="0" style="border:0;" allowfullscreen=""></iframe> <!-- data-aos="fade-up" data-aos-anchor-placement="top-center" --> 
+		</section>
+	</main> 
+	<footer>
+		<p>Powered by w3.css</p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+	<script src="js/script.js"></script>
+	<!-- <script>AOS.init();</script> -->
+</body>
+</html>
