@@ -1,6 +1,8 @@
 /*/////////////// media ///////*/
 @media only screen and (max-width: 1024px) {
-
+	body{	
+    		background-color: #b4c8e2;
+	}
 	header nav .logo a{
 		color: black;
 	}
